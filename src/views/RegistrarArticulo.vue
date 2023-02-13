@@ -195,10 +195,7 @@ export default {
                     Cve_Producto: this.Cve_Producto
                 })
             }).then(res => res.text()).then(data => {
-                if (data == 'Articulo insertado')
-                {
-                    alert("Succcess")
-                }
+                alert('Articulo Insertado')
             })
         }
     }
